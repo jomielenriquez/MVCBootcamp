@@ -1,0 +1,15 @@
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\TestYourCodeHere.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\TestYourCodeHere.AssemblyInfoInputs.cache
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\TestYourCodeHere.AssemblyInfo.cs
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\TestYourCodeHere.csproj.CoreCompileInputs.cache
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\TestYourCodeHere.sourcelink.json
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\bin\Debug\net8.0\TestYourCodeHere.exe
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\bin\Debug\net8.0\TestYourCodeHere.deps.json
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\bin\Debug\net8.0\TestYourCodeHere.runtimeconfig.json
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\bin\Debug\net8.0\TestYourCodeHere.dll
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\bin\Debug\net8.0\TestYourCodeHere.pdb
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\TestYourCodeHere.dll
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\refint\TestYourCodeHere.dll
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\TestYourCodeHere.pdb
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\TestYourCodeHere.genruntimeconfig.cache
+C:\Users\Jomiel\source\repos\Bootcamp\TestYourCodeHere\obj\Debug\net8.0\ref\TestYourCodeHere.dll
