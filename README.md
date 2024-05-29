@@ -46,7 +46,7 @@
             Lowest Number: 10
             ```
 
-             *Extra challenge: Try stroring the 3 numbers in a array and iterate through it to find the highest and lowest number.*
+             *Extra challenge: Try stroring the 3 numbers in an array and iterate through it to find the highest and lowest number.*
 
 
 
