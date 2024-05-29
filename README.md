@@ -26,3 +26,23 @@
             Dice roll: 3 + 4 + 5 = 12
             Sorry, you lose.
             ```
+        
+        - [ ] May 29, 2023
+            ### Comparing 3 numbers
+
+            Create a new dotnet console that will compare 3 numbers and display the highest number and the lowest number.
+
+            Start your code by declaring 3 int variable.
+
+            ```c#
+            int num1 = 25;
+            int num2 = 75;
+            int num3 = 10;
+            ```
+
+            The output of your code should be like this.
+            ```
+            Highest Number: 75
+            Lowest Number: 10
+            ```
+
