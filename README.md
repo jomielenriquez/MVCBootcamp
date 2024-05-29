@@ -32,7 +32,7 @@
 
             Create a new dotnet console that will compare 3 numbers and display the highest number and the lowest number.
 
-            Start your code by declaring 3 int variable.
+            Start your code by declaring 3 int variables.
 
             ```c#
             int num1 = 25;
