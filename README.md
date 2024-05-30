@@ -48,5 +48,23 @@
 
              *Extra challenge: Try stroring the 3 numbers in an array and iterate through it to find the highest and lowest number.*
 
+        - [ ] May 30, 2024
+            ### Check if even
+
+            Create a program that will check if a number is even.
+
+            Start by declaring a variable
+            ```c#
+            int numberToCheck = 6;
+            ```
+
+            Your output should be like
+            ```
+            Number 6 is even
+            Number 7 is not even
+            ```
+
+
+
 
 
