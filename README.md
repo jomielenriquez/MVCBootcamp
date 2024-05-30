@@ -4,7 +4,7 @@
 
  - [x] [Day One Lesson](/Day1/Lesson.md)
     - Daily coding challenge
-        - [ ] May 27, 2023
+        - [ ] May 27, 2024
             ### Create a console app solution in visual studio code that will print your full name, age and gender
 
             1. You must create a variable that will hold your first name, middle name, and last name
@@ -12,7 +12,7 @@
             3. Create a variable to store your gender in string.
             4. Display your personal information using string interpolation
             
-        - [ ] May 28, 2023
+        - [ ] May 28, 2024
             ### Create decision logic with if statement
             
             You'll use the Random.Next() method to simulate rolling three six-sided dice. You'll evaluate the rolled values to calculate the score. If the score is greater than an arbitrary total, then you'll display a winning message to the user. If the score is below the cutoff, you'll display a losing message to the user.
@@ -27,12 +27,12 @@
             Sorry, you lose.
             ```
         
-        - [ ] May 29, 2023
+        - [ ] May 29, 2024
             ### Comparing 3 numbers
 
             Create a new dotnet console that will compare 3 numbers and display the highest number and the lowest number.
 
-            Start your code by declaring 3 int variable.
+            Start your code by declaring 3 int variables.
 
             ```c#
             int num1 = 25;
