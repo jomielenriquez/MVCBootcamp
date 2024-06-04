@@ -63,7 +63,14 @@
             Number 6 is even
             Number 7 is not even
             ```
+ - [x] [Day Two Lesson](/Day2/Lesson.md)
+    - Daily coding challenge
+        - June 3 - 7, 2024
+            ### Create new MVC .Net Web App Repository
+            
+            Create a new model class with the properties FirstName, Middle Name, Last Name and Age
 
+            Create an instace of this class and and display it in a h1 tag 
 
 
 

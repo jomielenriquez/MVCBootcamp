@@ -40,6 +40,36 @@
 
  ```
 
-### View and Razor Syntax
+### Git Basic Commands
 
+    ```
+    // add all changes in all files
+    git add .
+
+    // commit changes in a branch
+    git commit -m "<your comment>"
+
+    // push your changes to the main branch
+    git push -u origin main
+
+    // create new branch
+    git checkout -b name-of-the-branch
+    
+    ```
+
+### Creating new
+
+ All model class should be in the model folder
+
+ ![Model](../Images/NewModel.png)
+
+ Create Instance of Model
+
+ ![Instance](../Images/CreateInstanceOfModel.png)
+
+ Display the instanciated data in the view
+
+ ![Display](../Images/DisplayingData.png)
+
+ You must add the model directory first like in line 4. and access the data using @Model like in line 7 and 9.
  
