@@ -73,3 +73,7 @@
 
  You must add the model directory first like in line 4. and access the data using @Model like in line 7 and 9.
  
+
+ Sample Output
+
+ ![Output](../Images/Output.png)
