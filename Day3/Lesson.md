@@ -7,10 +7,10 @@ Razor supports C# and uses the `@` symbol to transition from HTML to C#. Razor e
 
 Implicit Razor expressions start with `@` followed by C# code:
 
-    ```cshtml
-        <p>@DateTime.Now</p>
-        <p>@DateTime.IsLeapYear(2016)</p>
-    ```
+```cshtml
+<p>@DateTime.Now</p>
+<p>@DateTime.IsLeapYear(2016)</p>
+```
 
 ## Explicit Razor Expression
 
