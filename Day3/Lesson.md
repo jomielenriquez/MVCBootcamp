@@ -89,4 +89,85 @@ In code blocks, declare local functions with markup to serve as templating metho
 }
 ```
 
-# [Bootswatch](https://bootswatch.com/default/)
+### [Bootswatch](https://bootswatch.com/default/)
+
+
+## Creating a submit form
+
+### Sample Model
+
+```cs
+// filename: User.cs
+namespace SampleWeb.Models{
+    public class User{
+        public string?  FullName { get; set; }
+        public int Age { get; set; }
+    }
+}
+```
+
+### Sample Controller
+
+```cs
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using SampleWeb.Models;
+
+namespace SampleWeb.Controllers;
+
+public class HomeController : Controller
+{
+    public IActionResult Index()
+    {
+        User user = new User();
+        user.FullName = "Jomiel L. Enriquez";
+        return View(user);
+    }
+    public IActionResult Test(User user){
+        return RedirectToAction("Index");
+    }
+}
+
+```
+
+### Sample View 
+
+```cshtml
+@model SampleWeb.Models.User
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@using (Html.BeginForm("Test", "Home", FormMethod.Post, new { @name = "testForm" })){
+    
+    @Html.TextBoxFor(model => model.FullName, new { @class = "form-control", @id = "FullName" })
+
+    @Html.TextBoxFor(model => model.Age, new { @class = "form-control", @id = "Age" })
+
+    <button type="submit" class="btn btn-success" href=""><i class="icon-save"></i>  Save</button>
+}
+```
+
+# Creating Dropdown
+
+```cshtml
+<div class="form-group row margin_bottom_10">
+    <label for="Name" class="col-sm-2 col-form-label">Barangay</label>
+    <div class="col-sm-10">
+        @{
+            var users = new List<User>();
+            users.Add(new User(){FullName="test",Age=1});
+            users.Add(new User(){FullName="test1",Age=2});
+
+            var selection = new List<SelectListItem>();
+            foreach (var user in users)
+            {
+                selection.Add(new SelectListItem { Text = user.FullName, Value = user.Age.ToString() });
+            }
+        }
+        @Html.DropDownListFor(model => model.Age, selection, "Select", new { @class = "form-select", @id = "Test" })
+    </div>
+</div>
+```

@@ -6,25 +6,13 @@ namespace SampleWeb.Controllers;
 
 public class HomeController : Controller
 {
-    
     public IActionResult Index()
     {
-        return View();
+        User user = new User();
+        user.FullName = "Jomiel L. Enriquez";
+        return View(user);
     }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
-
-    public IActionResult Sample()
-    {
-        return View();
+    public IActionResult Test(User user){
+        return RedirectToAction("Index");
     }
 }
