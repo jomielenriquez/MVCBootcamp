@@ -171,3 +171,73 @@ public class HomeController : Controller
     </div>
 </div>
 ```
+
+# First Example
+## Model
+```cs
+namespace SampleWeb.Models{
+    public class Person{
+        public Person(string name, int age){
+            this.Name = name;
+            this.Age = age;
+        }
+        public string?  Name { get; set; }
+        public int Age { get; set; }
+    }
+}
+```
+
+### Index
+```cshtml
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    var joe = new Person("Joe", 33);
+}
+
+<p>Name: @joe.Name</p>
+<p>Age: @joe.Age</p>
+
+```
+
+# Display table of Persons
+
+```cshtml
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    var listOfPerson = new List<Person>();
+    
+    listOfPerson.Add(new Person("Jomiel", 26));
+    listOfPerson.Add(new Person("Frank", 22));
+    listOfPerson.Add(new Person("Ronald", 25));
+    listOfPerson.Add(new Person("Mico", 65));
+    listOfPerson.Add(new Person("Fernando", 69));
+    listOfPerson.Add(new Person("Maki", 16));
+    listOfPerson.Add(new Person("Jeffrey", 16));
+    listOfPerson.Add(new Person("Franz", 1));
+}
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach(var person in listOfPerson){
+                <tr>
+                    <td>@person.Name</td>
+                    <td>@person.Age</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+```

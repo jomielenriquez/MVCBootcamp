@@ -12,7 +12,12 @@ public class HomeController : Controller
         user.FullName = "Jomiel L. Enriquez";
         return View(user);
     }
-    public IActionResult Test(User user){
+    public IActionResult EditPerson(){
+        var person = new Person();
+        person.Name = "Jomiel Enriquez";
+        return View(person);
+    }
+    public IActionResult Test(Person person){
         return RedirectToAction("Index");
     }
 }
