@@ -1,28 +1,8 @@
 ## .NET Core with SQL
-
- In this guide, we are going to create a product list screen for you to learn the basics on how to implement entity framework on .NET Core app.
-
- 1. Install entity framework core
-
-    ```bash
-    dotnet add package Microsoft.EntityFrameworkCore
-    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-    dotnet add package Microsoft.EntityFrameworkCore.Tools
-    ```
-
- 2. Create Model
-
-    ```cs
-    // Models/Product.cs
-    namespace MyApp.Models
-    {
-        public class Product
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
-            public decimal Price { get; set; }
-        }
-    }
-    ```
-
- 3. 
+- [x] 1. Install SQL Server Management Studio (SSMS)
+  - [Donwload Link](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+- [x] 2. Install SQL Server Management Studio Express
+  - [GUIDE](https://www.sqlshack.com/how-to-install-sql-server-express-edition/)
+  - [Download Link](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+- [x] 3. NOT REQUIRED [Somee](https://somee.com/doka) account
+- [x] 4. [Your First Web](https://github.com/jomielenriquez/YourFirstWeb)
