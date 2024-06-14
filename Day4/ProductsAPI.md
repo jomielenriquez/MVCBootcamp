@@ -1,14 +1,16 @@
 # Creating Products API
 
- - 1. Install entity framwork core
+ 1. Install entity framework core
+    
     Install the necessary EF Core packages:
+    
     ```
     dotnet add package Microsoft.EntityFrameworkCore
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer
     dotnet add package Microsoft.EntityFrameworkCore.Tools
     ```
 
- - 2. Create your data models
+ 2. Create your data models
 
     Create your entity classes. These classes represent the tables in your database. For example, create a `Models` folder and add a `Product` class:
 
@@ -25,7 +27,7 @@
     }
     ```
 
- - 3. Create the Database Context
+ 3. Create the Database Context
 
     The DbContext class manages the entity objects during runtime, which includes populating objects with data from a database, change tracking, and persisting data to the database. Create a `Data` folder and add an `AppDbContext` class:
 
@@ -45,7 +47,7 @@
     }
     ```
 
- - 4. Create Repository Patter
+ 4. Create Repository Pattern
 
     To abstract the data access logic, you can use the repository pattern. Create an `Interfaces` folder and add an `IProductRepository` interface:
 
@@ -126,7 +128,7 @@
 
     ```
 
- - 5. Create your Controller
+ 5. Create your Controller
 
     Create a `Controllers` folder and add a `ProductsController`:
 
@@ -198,7 +200,7 @@
     }
     ```
 
- - 6. Configure the Database Context
+ 6. Configure the Database Context
 
     In your `Program.cs` file, configure the database context in the `ConfigureServices` method:
 
@@ -253,7 +255,7 @@
     }
     ```
 
- - 7. Apply Migration and Update Database
+ 7. Apply Migration and Update Database
 
     install EF Core tools
 
