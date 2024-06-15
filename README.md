@@ -87,5 +87,6 @@
 
             Display the dummy datas in a table in your newly created view. 
 
+ - [x] [Day Four Lesson](/Day4/Lesson.md)
 
 
